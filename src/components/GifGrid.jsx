@@ -3,7 +3,6 @@ import { useFetchGifs } from "../hooks/useFetchGifs";
 
 export const GifGrid = ({ category, cantValue }) => {
   const { images, isLoading } = useFetchGifs({ category, cantValue });
-  console.log(isLoading);
 
   return (
     <>
